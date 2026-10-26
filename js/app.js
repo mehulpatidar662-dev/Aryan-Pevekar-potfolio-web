@@ -122,6 +122,29 @@ function initMultiAngleViewers() {
     const stage = viewport.querySelector('.viewport-stage');
     const buttons = viewport.querySelectorAll('.angle-btn');
 
+    // Predictive idle preloading: when approaching viewport, cache angles for instant switching
+    const preloadAngles = () => {
+      buttons.forEach(btn => {
+        const src = btn.getAttribute('data-view-src');
+        if (src) {
+          const preImg = new Image();
+          preImg.src = src;
+        }
+      });
+    };
+
+    if ('IntersectionObserver' in window) {
+      const preObserver = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+          preloadAngles();
+          preObserver.disconnect();
+        }
+      }, { rootMargin: '400px' });
+      preObserver.observe(viewport);
+    } else {
+      setTimeout(preloadAngles, 1000);
+    }
+
     buttons.forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.preventDefault();

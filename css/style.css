@@ -961,6 +961,8 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  content-visibility: auto;
+  contain-intrinsic-size: 300px 240px;
 }
 
 .gallery-card:hover {

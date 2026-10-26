@@ -11,7 +11,7 @@ const PORTFOLIO_CONFIG = {
     name: "Aryan Pevekar",
     tagline: "Transportation & Motorcycle Designer",
     monogram: "AP",
-    photo: "assets/branding/aryan-photo.jpg",
+    photo: "assets/branding/aryan-photo.webp",
     status: "Available for Automotive Design Internships & Full-Time Roles",
     institute: "MIT ADT University, Pune",
     location: "Pune, Maharashtra, India",
@@ -91,21 +91,21 @@ const PORTFOLIO_CONFIG = {
       category: "01 // Concept Motorcycle & Vehicle Architecture",
       badge: "Flagship Hyperbike",
       brand: "MV Agusta Inspired",
-      logo: "assets/branding/mv-agusta-logo.png",
-      heroImage: "assets/bespoke/apex-hero-3quarter.png",
+      logo: "assets/branding/mv-agusta-logo.webp",
+      heroImage: "assets/bespoke/apex-hero-3quarter.webp",
       summary: "A high-performance bespoke motorcycle concept exploring Formula 1 aerodynamic downforce language, sculpted precision, and a minimalist floating cantilevered tail.",
       views: {
-        quarter: "assets/bespoke/apex-hero-3quarter.png",
-        front: "assets/bespoke/apex-front-view.png",
-        top: "assets/bespoke/apex-top-view.png",
-        charcoal: "assets/bespoke/apex-charcoal-render.png",
-        studioDark: "assets/bespoke/apex-studio-dark.jpg",
-        studioGold: "assets/bespoke/apex-studio-gold.jpg"
+        quarter: "assets/bespoke/apex-hero-3quarter.webp",
+        front: "assets/bespoke/apex-front-view.webp",
+        top: "assets/bespoke/apex-top-view.webp",
+        charcoal: "assets/bespoke/apex-charcoal-render.webp",
+        studioDark: "assets/bespoke/apex-studio-dark.webp",
+        studioGold: "assets/bespoke/apex-studio-gold.webp"
       },
       compare: {
-        before: "assets/bespoke/apex-proportions-sketch.jpeg",
+        before: "assets/bespoke/apex-proportions-sketch.webp",
         beforeLabel: "Raw Pencil Proportion Architecture",
-        after: "assets/bespoke/apex-studio-dark.jpg",
+        after: "assets/bespoke/apex-studio-dark.webp",
         afterLabel: "Photorealistic Obsidian Studio Render"
       }
     },
@@ -115,16 +115,16 @@ const PORTFOLIO_CONFIG = {
       category: "02 // Automotive Accessory & Ergonomic Utility",
       badge: "1:1 Validated Prototype",
       brand: "Aprilia Racing",
-      logo: "assets/branding/aprilia-logo.png",
-      heroImage: "assets/accessory/tuono-commuter-bag-loadout.png",
+      logo: "assets/branding/aprilia-logo.webp",
+      heroImage: "assets/accessory/tuono-commuter-bag-loadout.webp",
       summary: "Tool-free, slide-in luggage architecture engineered specifically for the Aprilia Tuono 457. Solves urban commuter backpack fatigue while maintaining the aggressive silhouette of the motorcycle.",
       views: {
-        loaded: "assets/accessory/tuono-commuter-bag-loadout.png",
-        component: "assets/accessory/tuono-rack-component.png",
-        dualMaterial: "assets/accessory/tuono-dual-material-frame.png",
-        colorMatched: "assets/accessory/tuono-color-match-study.png",
-        cad3d: "assets/accessory/tuono-cad-latch-clearance.png",
-        liveTest: "assets/accessory/tuono-proto-bike-test.jpeg"
+        loaded: "assets/accessory/tuono-commuter-bag-loadout.webp",
+        component: "assets/accessory/tuono-rack-component.webp",
+        dualMaterial: "assets/accessory/tuono-dual-material-frame.webp",
+        colorMatched: "assets/accessory/tuono-color-match-study.webp",
+        cad3d: "assets/accessory/tuono-cad-latch-clearance.webp",
+        liveTest: "assets/accessory/tuono-proto-bike-test.webp"
       }
     },
     {
@@ -133,21 +133,21 @@ const PORTFOLIO_CONFIG = {
       category: "03 // Modern Classic Cruiser & Custom Surfacing",
       badge: "Complete Motorcycle Architecture Case Study",
       brand: "Jawa Motorcycles",
-      logo: "assets/branding/jawa-logo.png",
-      heroImage: "assets/bobber/bobber-slide-34.jpg",
+      logo: "assets/branding/jawa-logo.webp",
+      heroImage: "assets/bobber/bobber-slide-34.webp",
       summary: "A contemporary reinterpretation of the iconic Jawa Bobber. Combines classic heritage cruiser teardrop tank surfacing with clean modern chassis packaging, low-slung ergonomics, and a bespoke cantilevered solo saddle.",
       views: {
-        hero3quarter: "assets/bobber/bobber-slide-34.jpg",
-        sideProfile: "assets/bobber/bobber-slide-35.jpg",
-        frontLowAngle: "assets/bobber/bobber-slide-36.jpg",
-        tankSurfacing: "assets/bobber/bobber-slide-37.jpg",
-        rearFloatingTail: "assets/bobber/bobber-slide-38.jpg",
-        wireframeMesh: "assets/bobber/bobber-cad-wireframe-mesh.png"
+        hero3quarter: "assets/bobber/bobber-slide-34.webp",
+        sideProfile: "assets/bobber/bobber-slide-35.webp",
+        frontLowAngle: "assets/bobber/bobber-slide-36.webp",
+        tankSurfacing: "assets/bobber/bobber-slide-37.webp",
+        rearFloatingTail: "assets/bobber/bobber-slide-38.webp",
+        wireframeMesh: "assets/bobber/bobber-cad-wireframe-mesh.webp"
       },
       compare: {
-        before: "assets/bobber/bobber-slide-32.jpg",
+        before: "assets/bobber/bobber-slide-32.webp",
         beforeLabel: "Selected Ideation Form & Vector Line Drawing",
-        after: "assets/bobber/bobber-slide-34.jpg",
+        after: "assets/bobber/bobber-slide-34.webp",
         afterLabel: "Photorealistic Dynamic 3/4 Studio Render"
       }
     }
