@@ -57,21 +57,27 @@ const PORTFOLIO_CONFIG = {
     pdfPath: "Resume/Resume.pdf",
     education: [
       {
-        degree: "Bachelor of Design (B.Des) — Transportation Design",
+        degree: "Bachelor Of Design, Transportation Design",
         institute: "MIT ADT University, Pune",
         period: "2023 — 2027",
         highlights: "Specializing in Motorcycle Architecture, Aerodynamic Class-A Surfacing, 1:1 Scale Clay/3D-Print Prototyping, and Ergonomic Mobility Systems."
       },
       {
-        degree: "Higher Secondary Education",
+        degree: "Higher Education",
         institute: "The New Sarvajanik High School",
         period: "2021 — 2023",
         highlights: "Foundations in Physics of Mechanics, Technical Drawing, Mathematics, and Analytical Problem Solving."
       },
       {
-        degree: "Foundations in Visual Thinking",
-        institute: "Central School For The Deaf, Mumbai & P.G. Vora School",
-        period: "2009 — 2020",
+        degree: "Secondary Education",
+        institute: "P.G. Vora School",
+        period: "2015 — 2020",
+        highlights: "Secondary education with active engagement in visual arts, technical sketching, and scientific principles."
+      },
+      {
+        degree: "Lower Education",
+        institute: "Central School For The Deaf, Mumbai Central",
+        period: "2009 — 2015",
         highlights: "Developed acute visual observation, 3D spatial awareness, and intuitive tactile problem-solving skills."
       }
     ]
