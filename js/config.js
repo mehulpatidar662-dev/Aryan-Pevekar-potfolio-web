@@ -60,7 +60,7 @@ const PORTFOLIO_CONFIG = {
         degree: "Bachelor Of Design, Transportation Design",
         institute: "MIT ADT University, Pune",
         period: "2023 — 2027",
-        highlights: "Specializing in Motorcycle Architecture, Aerodynamic Class-A Surfacing, 1:1 Scale Clay/3D-Print Prototyping, and Ergonomic Mobility Systems."
+        highlights: "Specializing in Motorcycle Design, Aerodynamic Class-A Surfacing, 1:1 Scale Clay/3D-Print Prototyping, and Ergonomic Mobility Systems."
       },
       {
         degree: "Higher Education",
