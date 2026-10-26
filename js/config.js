@@ -26,8 +26,8 @@ const PORTFOLIO_CONFIG = {
 
   // About Section & Design Philosophy
   about: {
-    heroHeading: "SCULPTING VISCERAL MOTORCYCLE ARCHITECTURE",
-    heroSubheading: "Transportation & Motorcycle Design Student at MIT ADT University, Pune. Translating aerodynamic tension, raw mechanical packaging, and biomorphic human ergonomics into production-ready physical and digital mobility concepts.",
+    heroHeading: "Bespoke Motorcycle Design & Concept Architecture",
+    heroSubheading: "Transportation Design student at MIT ADT University, Pune. Focused on high-performance superbike concepts, functional production accessories, Class-A CAD surfacing, and 1:1 scale physical prototyping.",
     bio: [
       "I am Aryan Pevekar, a Transportation Design student at MIT ADT University with an intense focus on two-wheeler architecture, motorcycle styling, and ergonomic mobility solutions. Experienced in end-to-end concept development, rapid analogue sketching, digital Class-A surfacing, 3D polygon & NURBS modelling, and physical 1:1 scale prototyping.",
       "As a hearing-impaired designer, I experience vehicle design with heightened spatial sensitivity and an intensely visual, detail-oriented methodology. My philosophy bridges the raw emotional impact of track-focused superbikes with rigorous mechanical engineering, human ergonomics, and real-world manufacturability."

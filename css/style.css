@@ -4,86 +4,78 @@
    ========================================================================== */
 
 :root {
-  /* Color Palette */
-  --bg-primary: #06090e;
-  --bg-secondary: #0b1018;
-  --bg-card: #0f1522;
-  --bg-card-hover: #151d2e;
-  --bg-glass: rgba(11, 16, 24, 0.88);
-  --bg-glass-card: rgba(15, 21, 34, 0.8);
+  /* Luxury Automotive Atelier Palette (Matte Obsidian & Italian Racing Rosso) */
+  --bg-primary: #0a0b0e;
+  --bg-secondary: #111216;
+  --bg-card: #14151b;
+  --bg-card-hover: #1b1c24;
+  --bg-glass: rgba(16, 17, 22, 0.92);
+  --bg-glass-card: rgba(20, 21, 27, 0.85);
   
-  /* Cyan / Light Blue Accents */
-  --accent-cyan: #00e5ff;
-  --accent-cyan-light: #67e8f9;
-  --accent-cyan-dim: rgba(0, 229, 255, 0.15);
-  --accent-blue: #38bdf8;
-  --accent-blue-deep: #0284c7;
-  --accent-ice: #e0f2fe;
+  /* Automotive Racing Accent: Italian Rosso Corsa & Warm Titanium */
+  --accent-cyan: #e11d48;         /* Precision Racing Rosso */
+  --accent-cyan-light: #fb7185;
+  --accent-cyan-dim: rgba(225, 29, 72, 0.12);
+  --accent-blue: #f43f5e;
+  --accent-blue-deep: #be123c;
+  --accent-ice: #fff1f2;
   --accent-glow: none;
   --accent-glow-strong: none;
-  --border-cyan: rgba(0, 229, 255, 0.25);
-  --border-cyan-bright: rgba(0, 229, 255, 0.6);
+  --border-cyan: rgba(225, 29, 72, 0.28);
+  --border-cyan-bright: rgba(225, 29, 72, 0.65);
   --border-subtle: rgba(255, 255, 255, 0.08);
 
   /* Typography & Text */
-  --text-main: #f1f5f9;
+  --text-main: #f8fafc;
   --text-secondary: #94a3b8;
   --text-dim: #64748b;
-  --text-cyan: #38bdf8;
+  --text-cyan: #fb7185;
 
   /* Font Families */
-  --font-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-mono: 'JetBrains Mono', 'Space Mono', 'Consolas', monospace;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'Space Mono', -apple-system, monospace;
 
-  /* Transitions */
-  --text-inverse: #030712;
-  --card-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
-  --stage-bg: radial-gradient(circle at center, #0c121d 0%, #030508 85%);
-  --slider-bg: #05070a;
-  --thumb-bg: #04070c;
-  --info-bar-bg: #090e17;
+  /* Surfaces & Stages */
+  --text-inverse: #0a0b0e;
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --stage-bg: radial-gradient(circle at center, #16171e 0%, #0a0b0e 90%);
+  --slider-bg: #0d0e12;
+  --thumb-bg: #101116;
+  --info-bar-bg: #131419;
   --transition-fast: 0.2s ease;
-  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-  --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-smooth: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-bounce: 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 /* ==========================================================================
    LIGHT MODE PALETTE: Precision Studio & Clean Automotive Drafting Aesthetics
    ========================================================================== */
 [data-theme="light"] {
-  /* Color Palette - Clean Studio White & Cool Slate */
+  /* Clean Studio White & Cool Architectural Slate */
   --bg-primary: #f8fafc;
   --bg-secondary: #ffffff;
   --bg-card: #ffffff;
   --bg-card-hover: #f1f5f9;
-  --bg-glass: rgba(255, 255, 255, 0.92);
+  --bg-glass: rgba(255, 255, 255, 0.94);
   --bg-glass-card: rgba(255, 255, 255, 0.95);
   
-  /* Electric Blue Accents (High Contrast on White Backgrounds) */
-  --accent-cyan: #0284c7;
-  --accent-cyan-light: #0ea5e9;
-  --accent-cyan-dim: rgba(2, 132, 199, 0.1);
-  --accent-blue: #0284c7;
-  --accent-blue-deep: #0369a1;
-  --accent-ice: #0284c7;
-  --accent-glow: none;
-  --accent-glow-strong: none;
-  --border-cyan: rgba(2, 132, 199, 0.25);
-  --border-cyan-bright: rgba(2, 132, 199, 0.7);
-  --border-subtle: #e2e8f0;
+  --accent-cyan: #e11d48;
+  --accent-cyan-light: #f43f5e;
+  --accent-cyan-dim: rgba(225, 29, 72, 0.08);
+  --border-cyan: rgba(225, 29, 72, 0.22);
+  --border-cyan-bright: rgba(225, 29, 72, 0.5);
+  --border-subtle: rgba(0, 0, 0, 0.08);
 
-  /* Typography & Text */
   --text-main: #0f172a;
   --text-secondary: #475569;
-  --text-dim: #64748b;
-  --text-cyan: #0284c7;
-  --text-inverse: #ffffff;
+  --text-dim: #94a3b8;
+  --text-cyan: #e11d48;
 
-  /* Surfaces & Components */
-  --card-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.08), 0 1px 3px rgba(15, 23, 42, 0.04);
+  --text-inverse: #ffffff;
+  --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
   --stage-bg: radial-gradient(circle at center, #ffffff 0%, #f1f5f9 100%);
-  --slider-bg: #f8fafc;
-  --thumb-bg: #f1f5f9;
+  --slider-bg: #e2e8f0;
+  --thumb-bg: #f8fafc;
   --info-bar-bg: #ffffff;
 }
 
@@ -93,10 +85,7 @@
 
 [data-theme="light"] body {
   background-color: var(--bg-primary);
-  background-image: 
-    radial-gradient(circle at 50% 0%, rgba(2, 132, 199, 0.07) 0%, transparent 60%),
-    linear-gradient(rgba(2, 132, 199, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(2, 132, 199, 0.04) 1px, transparent 1px);
+  background-image: none;
 }
 
 [data-theme="light"] ::-webkit-scrollbar-track {
@@ -127,11 +116,7 @@ body {
   color: var(--text-main);
   line-height: 1.6;
   overflow-x: hidden;
-  background-image: 
-    linear-gradient(rgba(0, 229, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 229, 255, 0.02) 1px, transparent 1px);
-  background-size: 100% 100%, 48px 48px, 48px 48px;
-  background-attachment: fixed;
+  background-image: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -166,16 +151,17 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  letter-spacing: 0.15em;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-cyan);
   background: var(--accent-cyan-dim);
   border: 1px solid var(--border-cyan);
-  padding: 6px 14px;
-  border-radius: 100px;
-  margin-bottom: 18px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
 }
 
 .section-tag .dot {
@@ -621,12 +607,13 @@ body {
 }
 
 .project-category {
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
   font-size: 0.8rem;
+  font-weight: 700;
   color: var(--accent-cyan);
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 8px;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
 }
 
 .project-title {
@@ -704,15 +691,26 @@ body {
 }
 
 .angle-btn {
-  background: rgba(15, 21, 34, 0.7);
+  background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
-  padding: 6px 14px;
+  padding: 7px 14px;
   border-radius: 6px;
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
   cursor: pointer;
   transition: var(--transition-fast);
+}
+.angle-btn:hover {
+  color: var(--text-main);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.angle-btn.active {
+  background: var(--text-main) !important;
+  color: var(--text-inverse) !important;
+  border-color: var(--text-main) !important;
+  font-weight: 600;
 }
 
 .angle-btn:hover {
@@ -1028,9 +1026,16 @@ body {
 }
 
 .gallery-card-tag {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--accent-cyan);
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2px 7px;
+  border-radius: 4px;
+  border: 1px solid var(--border-subtle);
+  text-transform: uppercase;
 }
 
 /* ==========================================================================
@@ -2113,4 +2118,75 @@ textarea.form-control {
   background: #ffffff;
   border-bottom-color: #e2e8f0;
   box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1);
+}
+
+/* --- Bespoke Studio Phase Headers --- */
+.section-phase-header {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 45px 0 22px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  letter-spacing: -0.015em;
+}
+
+.section-phase-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  background: var(--accent-cyan-dim);
+  border: 1px solid var(--border-cyan);
+  padding: 3px 8px;
+  border-radius: 5px;
+  letter-spacing: 0.04em;
+  font-family: var(--font-sans);
+}
+
+.hero-subtitle-lead {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  letter-spacing: -0.01em;
+}
+
+.hero-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin: 28px 0;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+}
+
+.hero-stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.hero-stat-val {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-main);
+  letter-spacing: -0.02em;
+}
+
+.hero-stat-lbl {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .hero-stats-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
 }
